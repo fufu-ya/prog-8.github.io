@@ -17,8 +17,8 @@
     padding: 5px;
 }
 
-                                                                                     /*右上メニュー(始まり)*/
-.hamburger-menu{                                                                     /*右上メニュー(スマホ版のみ表示)*/
+                                                                                   
+.hamburger-menu{                                                              
     display: none;
 }
 
@@ -117,7 +117,7 @@ transform: rotate(-45deg);/* 押したら回転する */
 #menu-btn-check:checked ~ .menu-content {
     left: 0;/*ハンバーガーメニューを押したら、メニューを画面内へ*/
 }
-                                                                                 /*右上メニュー(終わり)*/
+                                                                         
 
 .arrow-wrap{
     position: fixed;
