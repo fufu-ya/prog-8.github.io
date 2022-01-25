@@ -1,0 +1,399 @@
+@media screen and (max-width:896px){
+    .phone_border{
+        display: block;
+        position: fixed;
+        top: 4%;
+        left: 97%;
+    }
+
+    .hamburger-menu{                                                         /* 右上メニュー(始まり) */
+        display: block;
+    }
+
+    .menu-btn {
+        top: 45px; /* 上からの距離 */
+        right: 10px; /* 右からの距離 */
+        height: 40px; /* ハンバーガーメニューの背景の高さ */
+        width: 40px; /* ハンバーガーメニューの背景の幅 */
+    }                                                                        /* 右上メニュー(終わり) */
+
+    .header1{
+        justify-content: center;
+        background-color:  #ffffff;
+        opacity: 0.98;
+        border: none;
+    }
+
+    .header1 img{
+      height: 56px;
+    }
+
+    .header-img-pc{
+        display: none;
+    }
+
+    .header-img-sp{
+        display: block;
+    }
+
+    .header-img-sp img{
+        width: 100%;
+        object-fit: cover;
+        max-height: 1200px;
+        vertical-align: top;
+    }
+
+    .header-img1-1{
+        top: 550px;
+    }
+
+    .header-img1-1 img{
+        max-width: 70%;
+    }
+
+    .arrow-wrap{
+        bottom: 70px;
+        right: 10px;
+        fill: rgb(147, 149, 177);
+    }
+    
+    .circle-wrap{
+        bottom: 40px;
+        right: 10px;
+        fill: rgb(147, 149, 177);
+    }
+
+    .header2{
+        display: none;
+    }
+
+    .group{
+        width: 90%;
+        padding-top: 50px;
+    }
+
+    .group1 h3{
+        font-size: 14px;
+    }
+
+    .group1 p{
+        font-size: 14px;
+        padding: 0 50px 30px 50px;
+    }
+
+    .group1 img{
+        padding-top: 50px;
+    }
+
+    .plan{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .plan1{
+        width: 100%;
+        padding: 30px 0 70px 0;
+    }
+
+    .plan1 h2{
+        width: 90%;
+    }
+    
+    .plan1 p{
+        width: 90%;
+    }
+
+    .plan2{
+        width: 100%;
+    }
+
+    .point{
+        width: 100%;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .point1{
+        width: 100%;
+    }
+    
+    .point2{
+        width: 100%;
+        padding: 70px 0;
+    }
+    
+    .point2 h2{
+        width: 90%;
+    }
+    
+    .point2 p{
+        width: 90%;
+    }
+
+    .team{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    
+    .team1{
+        width: 100%;
+    }
+    
+    .team2{
+        width: 100%;
+        padding: 70px 0;
+    }
+    
+    .team2 h2{
+        width: 90%;
+    }
+    
+    .team2 p{
+        width: 90%;
+    }
+
+    .name{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    
+    .name1{
+        width: 100%;
+    }
+    
+    .name2{
+        width: 100%;
+        padding: 100px 0;
+    }
+    
+    .name2 h2{
+        width: 90%;
+    }
+    
+    .name2 p{
+        width: 90%;
+    }
+
+    .net1-sp{
+        display: none;
+    }
+
+    .win{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .model{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .model1{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .model2{
+        width: 47%;
+    }
+
+    .soft{
+        padding-top: 50px;
+    }
+
+    .soft p{
+        width: 90%;
+    }
+
+    .soft1{
+        padding: 15px 0;
+    }
+
+    .footer1{
+        background-color: rgb(243, 241, 241);
+    }
+
+    .footer1-tag img{
+        padding: 12.5px 7.5px;
+        width: 20px;
+    }
+
+    .footer2{
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer2-p{
+        padding: 30px 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer3{
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+        justify-content: left;
+    }
+
+    .footer-command{
+        width: 30%;
+        padding: 0 20px 20px 0;
+    }
+
+    .footer4{
+        padding: 50px 45px;
+        font-size: 12px;
+    }
+
+    .footer-btm{
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        z-index: 10;
+        width: 100%;
+        background-color: #162331;
+        padding: 10px 0;
+        border: white;
+    }
+    
+    .footer-btm a{
+        color: white;
+        text-decoration: none;
+    }
+    
+
+
+}
+
+
+
+@media screen and (max-width:480px){
+    .header0{
+        display: inline-block;
+    }
+
+    .menu-btn {                                                        /* 右上メニュー(始まり) */
+        top: 65px; /* 上からの距離 */
+        right: 10px; /* 右からの距離 */
+        height: 30px; /* ハンバーガーメニューの背景の高さ */
+        width: 30px; /* ハンバーガーメニューの背景の幅 */
+    }                                                                   /* 右上メニュー(終わり) */
+
+    .header-img1-1{
+        top: 150px;
+    }
+
+    .arrow-wrap svg{
+        width: 70px;
+    }
+    
+    .circle-wrap svg{
+        width: 70px;
+    }
+
+    .group{
+        flex-direction: column;
+        width: 90%;
+        padding: 0;
+    }
+
+    .group1{
+        width: 100%;
+        margin: 0 auto;
+        margin: 20px 0;
+    }
+
+    .plan1 h2{
+        width: 70%;
+    }
+
+    .plan1 p{
+        width: 70%;
+    }
+
+    .point2 h2{
+        width: 70%;
+    }
+    
+    .point2 p{
+        width: 70%;
+    }
+
+    .team2 h2{
+        width: 70%;
+    }
+    
+    .team2 p{
+        width: 70%;
+    }
+
+    .name2 h2{
+        width: 70%;
+    }
+    
+    .name2 p{
+        width: 70%;
+    }
+
+    .net1-pc{
+        display: none;
+    }
+
+    .net1-sp{
+        display: block;
+    }
+
+    .net1-sp img{
+        width: 40%;
+    }
+
+    .win1 img{
+        width: 100%;
+    }
+
+    .model1{
+        width: 100%;
+    }
+
+    .model2{
+        box-sizing: border-box;
+        width: 50%;
+    }
+
+    .model2 a{
+        font-size: 14px;
+        padding: 15px 40px;
+    }
+
+    .model2-p{
+        margin-bottom: 21px;
+    }
+
+    .model3{
+        width: 100%;
+    }
+
+    .soft p{
+        width: 100%;
+    }
+
+    .footer-command{
+        width: 40%;
+    }
+
+    .footer2{
+        padding-left: 0;
+    }
+
+    .footer4{
+        padding: 40px 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
