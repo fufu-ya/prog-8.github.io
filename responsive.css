@@ -6,7 +6,7 @@
         left: 97%;
     }
 
-    .hamburger-menu{                                                         /* 右上メニュー(始まり) */
+    .hamburger-menu{                                                  
         display: block;
     }
 
@@ -15,8 +15,7 @@
         right: 10px; /* 右からの距離 */
         height: 40px; /* ハンバーガーメニューの背景の高さ */
         width: 40px; /* ハンバーガーメニューの背景の幅 */
-    }                                                                        /* 右上メニュー(終わり) */
-
+    }                                                              
     .header1{
         justify-content: center;
         background-color:  #ffffff;
@@ -278,12 +277,12 @@
         display: inline-block;
     }
 
-    .menu-btn {                                                        /* 右上メニュー(始まり) */
+    .menu-btn {                                               
         top: 65px; /* 上からの距離 */
         right: 10px; /* 右からの距離 */
         height: 30px; /* ハンバーガーメニューの背景の高さ */
         width: 30px; /* ハンバーガーメニューの背景の幅 */
-    }                                                                   /* 右上メニュー(終わり) */
+    }                                                            
 
     .header-img1-1{
         top: 150px;
